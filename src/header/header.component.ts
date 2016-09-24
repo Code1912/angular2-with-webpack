@@ -13,6 +13,9 @@ export  class  HeaderComponent implements  OnInit{
 
     @Input()
     parentModel:AppConfig;
+    childChangeAppName(){
+        this.parentModel.appName="Child App Name"
+    }
     ngOnInit(){
 
     }
