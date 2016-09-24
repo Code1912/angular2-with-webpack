@@ -13,6 +13,7 @@ import    {HighlightDirective} from './highlight.directive'
     imports: [
         BrowserModule
         ,FormsModule// 这个是 ngmodel 要用到input上面 ，如果不导入要报错
+         
     ],
     declarations: [
         AppComponent,HeaderComponent,DetailComponent,HighlightDirective
