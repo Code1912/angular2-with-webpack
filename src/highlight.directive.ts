@@ -24,7 +24,6 @@ export class HighlightDirective implements OnInit {
         console.log("init")
     }
     private setBackgroundColor(color: string) {
-
         // styleName注意大小写敏感啊
         this.renderer.setElementStyle(this.el.nativeElement, "backgroundColor", color);
     }
